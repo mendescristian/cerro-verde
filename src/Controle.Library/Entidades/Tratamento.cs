@@ -17,11 +17,9 @@ public class Tratamento
     public string ResponsavelAplicacao { get; init; }
     public string Motivo { get; init; }
     public string? Observacoes { get; init; }
-
     public DateTimeOffset DataInclusao { get; private set; }
     public DateTimeOffset? DataUltimaAtualizacao { get; init; }
 
-    // Navegação
     public virtual Gado? Gado { get; init; }
 
     protected Tratamento()

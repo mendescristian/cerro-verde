@@ -9,7 +9,6 @@ public class Gado
     public int Brinco { get; init; }
     public bool Valido { get; init; }
     public StatusGado Status { get; init; }
-    public string? Nome { get; init; }
     public SexoGado Sexo { get; init; }
     public RacaGado Raca { get; init; }
     public DateTimeOffset DataNascimento { get; init; }
@@ -22,6 +21,7 @@ public class Gado
     public GadoDadosEntrada? DadosEntrada { get; init; }
     public FinalidadeGado Finalidade { get; init; }
     public GadoDadosSaida? DadosSaida { get; init; }
+    public bool Prenhez { get; init; }
     public GadoDadosPrenhez? DadosPrenhez { get; init; }
     public string? Observacoes { get; init; }
     public DateTimeOffset DataInclusao { get; private set; }
@@ -29,6 +29,7 @@ public class Gado
 
     public virtual Pasto? Pasto { get; init; }
     public virtual ICollection<Tratamento>? Tratamentos { get; init; }
+    public virtual ICollection<Movimentacao>? Movimentacoes { get; init; }
 
     protected Gado() { }
 
