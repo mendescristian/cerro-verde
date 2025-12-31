@@ -1,0 +1,12 @@
+C:\Repo\CerroVerde\src\Controle.Library\bin\Debug\net9.0\Controle.Library.deps.json
+C:\Repo\CerroVerde\src\Controle.Library\bin\Debug\net9.0\Controle.Library.dll
+C:\Repo\CerroVerde\src\Controle.Library\bin\Debug\net9.0\Controle.Library.pdb
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.csproj.AssemblyReference.cache
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.AssemblyInfoInputs.cache
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.AssemblyInfo.cs
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.csproj.CoreCompileInputs.cache
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.dll
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\refint\Controle.Library.dll
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\Controle.Library.pdb
+C:\Repo\CerroVerde\src\Controle.Library\obj\Debug\net9.0\ref\Controle.Library.dll

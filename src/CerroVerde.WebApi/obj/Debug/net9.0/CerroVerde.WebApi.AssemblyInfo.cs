@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CerroVerde.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2e3155521b1bbf12ab3025ed02b19afd272e04e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+265748a7d22a1090b06d0f037b4dc133d9d1d701")]
 [assembly: System.Reflection.AssemblyProductAttribute("CerroVerde.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CerroVerde.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

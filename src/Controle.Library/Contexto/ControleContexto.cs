@@ -244,7 +244,7 @@ internal class ConfiguracaoMovimentacao : IEntityTypeConfiguration<Movimentacao>
 
         builder.Property(m => m.DataMovimentacao);
 
-        builder.HasOne(m => m.Gado).WithMany().HasForeignKey(m => m.GadoId);
+        builder.HasOne(m => m.Gado).WithMany(g => g.Movimentacoes).HasForeignKey(m => m.GadoId);
 
         builder.HasOne(m => m.PastoOrigem).WithMany().HasForeignKey(m => m.PastoOrigemId);
 
