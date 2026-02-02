@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Dunet/1.14.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dunet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dunet.dll": {}
+        }
+      },
       "EFCore.NamingConventions/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -721,6 +730,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Dunet": "1.14.0",
           "EFCore.NamingConventions": "10.0.0",
           "Mediatr": "[12.5.0]",
           "Microsoft.EntityFrameworkCore": "10.0.2",
@@ -736,6 +746,22 @@
     }
   },
   "libraries": {
+    "Dunet/1.14.0": {
+      "sha512": "9RXpCE4Rp6gkKIWox0D2m/XxzJ591W0+YYu/iJz7LBD6+gGYtuiGWi5+cWiyAk+5Xjw80uoOYcyL4HMJI+qtDQ==",
+      "type": "package",
+      "path": "dunet/1.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "analyzers/dotnet/Dunet.Generator.dll",
+        "analyzers/dotnet/cs/Dunet.dll",
+        "dunet.1.14.0.nupkg.sha512",
+        "dunet.nuspec",
+        "favicon.png",
+        "lib/netstandard2.0/Dunet.dll"
+      ]
+    },
     "EFCore.NamingConventions/10.0.0": {
       "sha512": "gEJLy60tsQaPT69vkNFtyYKd2WcBcPB71vE2IKqAuJfP4UrC3gh4DAMR9+TpUpxGCQyRQ3IOO4SzIb+KfjTw6Q==",
       "type": "package",
@@ -2331,8 +2357,8 @@
     },
     "Controle.Library/1.0.0": {
       "type": "project",
-      "path": "../Controle.Library/Controle.Library.csproj",
-      "msbuildProject": "../Controle.Library/Controle.Library.csproj"
+      "path": "../Controle/Controle.Library/Controle.Library.csproj",
+      "msbuildProject": "../Controle/Controle.Library/Controle.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2370,8 +2396,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj": {
-              "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj"
+            "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj": {
+              "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj"
             }
           }
         }
@@ -2418,13 +2444,22 @@
           }
         },
         "centralPackageVersions": {
+          "Dunet": "1.14.0",
           "EFCore.NamingConventions": "10.0.0",
           "Mediatr": "[12.5.0]",
           "Microsoft.AspNetCore.OpenApi": "10.0.2",
           "Microsoft.EntityFrameworkCore": "10.0.2",
           "Microsoft.EntityFrameworkCore.Design": "10.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "10.0.2",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+          "Microsoft.Extensions.Caching.Memory": "10.0.2",
+          "Microsoft.Extensions.TimeProvider.Testing": "10.2.0",
+          "Npgsql": "10.0.1",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
+          "NSubstitute": "5.3.0",
+          "Shouldly": "4.3.0",
+          "Testcontainers.PostgreSql": "4.10.0",
+          "TUnit": "1.12.111",
+          "TUnit.Core": "1.12.111"
         },
         "imports": [
           "net461",
