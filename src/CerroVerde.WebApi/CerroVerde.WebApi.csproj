@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Controle.Library\Controle.Library.csproj" />
+    <ProjectReference Include="..\Controle\Controle.Library\Controle.Library.csproj" />
   </ItemGroup>
 
 </Project>

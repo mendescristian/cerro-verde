@@ -27,8 +27,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj": {
-                "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj"
+              "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj": {
+                "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj"
               }
             }
           }
@@ -75,13 +75,22 @@
             }
           },
           "centralPackageVersions": {
+            "Dunet": "1.14.0",
             "EFCore.NamingConventions": "10.0.0",
             "Mediatr": "[12.5.0]",
             "Microsoft.AspNetCore.OpenApi": "10.0.2",
             "Microsoft.EntityFrameworkCore": "10.0.2",
             "Microsoft.EntityFrameworkCore.Design": "10.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.2",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+            "Microsoft.Extensions.Caching.Memory": "10.0.2",
+            "Microsoft.Extensions.TimeProvider.Testing": "10.2.0",
+            "Npgsql": "10.0.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
+            "NSubstitute": "5.3.0",
+            "Shouldly": "4.3.0",
+            "Testcontainers.PostgreSql": "4.10.0",
+            "TUnit": "1.12.111",
+            "TUnit.Core": "1.12.111"
           },
           "imports": [
             "net461",
@@ -520,14 +529,14 @@
         }
       }
     },
-    "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj": {
+    "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj",
+        "projectUniqueName": "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj",
         "projectName": "Controle.Library",
-        "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle.Library\\Controle.Library.csproj",
+        "projectPath": "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\Controle.Library.csproj",
         "packagesPath": "C:\\Users\\cristian.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\CerroVerde\\src\\Controle.Library\\obj\\",
+        "outputPath": "C:\\Repo\\CerroVerde\\src\\Controle\\Controle.Library\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -561,6 +570,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Dunet": {
+              "target": "Package",
+              "version": "[1.14.0, )",
+              "versionCentrallyManaged": true
+            },
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[10.0.0, )",
@@ -583,13 +597,22 @@
             }
           },
           "centralPackageVersions": {
+            "Dunet": "1.14.0",
             "EFCore.NamingConventions": "10.0.0",
             "Mediatr": "[12.5.0]",
             "Microsoft.AspNetCore.OpenApi": "10.0.2",
             "Microsoft.EntityFrameworkCore": "10.0.2",
             "Microsoft.EntityFrameworkCore.Design": "10.0.2",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.2",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+            "Microsoft.Extensions.Caching.Memory": "10.0.2",
+            "Microsoft.Extensions.TimeProvider.Testing": "10.2.0",
+            "Npgsql": "10.0.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
+            "NSubstitute": "5.3.0",
+            "Shouldly": "4.3.0",
+            "Testcontainers.PostgreSql": "4.10.0",
+            "TUnit": "1.12.111",
+            "TUnit.Core": "1.12.111"
           },
           "imports": [
             "net461",
