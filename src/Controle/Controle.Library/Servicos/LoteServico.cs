@@ -8,6 +8,7 @@ public interface ILoteServico
 {
     Task<CadastrarLoteResposta> CadastrarLoteAsync(CadastrarLoteRequisicao requisicao);
     Task<AtualizarLoteResposta> AtualizarLoteAsync(AtualizarLoteRequisicao requisicao);
+    Task<ExcluirLoteResposta> ExcluirLoteAsync(int loteId);
 }
 
 public class LoteServico(IMediator mediator) : ILoteServico
@@ -19,4 +20,7 @@ public class LoteServico(IMediator mediator) : ILoteServico
     public async Task<AtualizarLoteResposta> AtualizarLoteAsync(
         AtualizarLoteRequisicao requisicao
     ) => await mediator.Send(new AtualizarLoteComando(requisicao));
+
+    public async Task<ExcluirLoteResposta> ExcluirLoteAsync(int loteId) =>
+        await mediator.Send(new ExcluirLoteComando(loteId));
 }
