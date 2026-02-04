@@ -15,6 +15,8 @@ public interface IPastoServico
     Task<AtualizarPastoComReformaResposta> AtualizarPastoComReformaAsync(
         AtualizarPastoComReformaRequisicao requisicao
     );
+
+    Task<ExcluirPastoResposta> ExcluirPastoAsync(int pastoId);
 }
 
 public class PastoServico(IMediator mediator) : IPastoServico
@@ -30,4 +32,7 @@ public class PastoServico(IMediator mediator) : IPastoServico
     public async Task<AtualizarPastoComReformaResposta> AtualizarPastoComReformaAsync(
         AtualizarPastoComReformaRequisicao requisicao
     ) => await mediator.Send(new AtualizarPastoComReformaComando(requisicao));
+
+    public async Task<ExcluirPastoResposta> ExcluirPastoAsync(int pastoId) =>
+        await mediator.Send(new ExcluirPastoComando(pastoId));
 }
