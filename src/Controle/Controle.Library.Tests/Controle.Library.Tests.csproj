@@ -15,4 +15,7 @@
     <ProjectReference Include="..\Controle.Library.Fixture\Controle.Library.Fixture.csproj" />
     <ProjectReference Include="..\Controle.Library\Controle.Library.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comandos\Lotes\" />
+  </ItemGroup>
 </Project>
