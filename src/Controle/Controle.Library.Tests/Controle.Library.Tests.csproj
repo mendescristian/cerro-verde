@@ -17,5 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Comandos\Lotes\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Queries\Lotes\" />
   </ItemGroup>
 </Project>
