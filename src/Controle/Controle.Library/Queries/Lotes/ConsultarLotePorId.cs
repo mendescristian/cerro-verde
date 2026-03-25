@@ -24,8 +24,7 @@ internal sealed class ConsultarLotePorIdHandler(ControleContexto contexto)
                 l.CapacidadeMaxima,
                 l.Status,
                 l.Observacoes,
-                l.DataInclusao,
-                l.DataUltimaAtualizacao
+                l.DataInclusao
             ))
             .FirstOrDefaultAsync();
 }
