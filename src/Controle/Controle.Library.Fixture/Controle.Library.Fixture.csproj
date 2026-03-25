@@ -14,6 +14,7 @@
   <ItemGroup>
     <Folder Include="Contexto\" />
     <Folder Include="Entidades\" />
+    <Folder Include="Models\Lotes\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="TUnit.Core" />

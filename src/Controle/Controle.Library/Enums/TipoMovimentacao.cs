@@ -9,5 +9,6 @@ public enum TipoMovimentacao
     Venda,
     Quarentena,
     ManejoProdutivo,
+    ReformaPasto,
     Outro,
 }

@@ -17,7 +17,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Comandos\" />
+    <Folder Include="Comandos\Lotes\" />
     <Folder Include="Comandos\Pastos\" />
+    <Folder Include="Models\Lotes\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Queries\Lotes\" />
     <Folder Include="Servicos\" />
   </ItemGroup>
 </Project>
